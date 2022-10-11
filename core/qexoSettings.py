@@ -39,8 +39,8 @@ ALL_SETTINGS = [  # [名称, 默认值, 是否在尝试修复时重置, 简介]
                  "社会社会": "🙂", "旺柴": "🙂", "好的": "🙂", "哇": "🙂"}), True, "自定义表情"],
     ["WEBHOOK_APIKEY", ''.join(random.choice("qwertyuiopasdfghjklzxcvbnm1234567890")
                                for x in range(12)), False, "API密钥"],
-    ["VERCEL_TOKEN", "", False, "Vercel密钥"],
-    ["PROJECT_ID", "", False, "Qexo项目ID"],
+    ["VERCEL_TOKEN", "wJcFsRLKl08TE8jPztgl7rZa", False, "Vercel密钥"],
+    ["PROJECT_ID", "Cluster0", False, "Qexo项目ID"],
     ["ALLOW_FRIEND", "否", False, "是否允许友链申请 是/否"],
     ["LAST_LOGIN", "", True, "博主最后上线时间(无需更改)"],
     ["IMG_HOST", "{\"type\":\"关闭\",\"params\":{}}", False, "2.0之后的图床设置JSON"],
